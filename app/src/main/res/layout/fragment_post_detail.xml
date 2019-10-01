@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.test.babylon.presentation.postdetail.PostDetailFragment">
+
+
+    <TextView
+            android:id="@+id/tv_postTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="TITLE" />
+
+    <TextView
+            android:id="@+id/tv_postBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="Body" />
+
+    <TextView
+            android:id="@+id/tv_authorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="AuthorName" />
+
+    <TextView
+            android:id="@+id/tv_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="Number of Comments" />
+
+</LinearLayout>
